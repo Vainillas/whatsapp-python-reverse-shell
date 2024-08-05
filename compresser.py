@@ -23,6 +23,6 @@ def writetofile(data, filename):
 def main():
     data = openfiletocompress("pythonreverseshell.py")
     encoded_data = compress(data)
-    writetofile(encoded_data, "encodedRS.py")
+    writetofile(encoded_data, "encodedRS.txt")
 
 main()
