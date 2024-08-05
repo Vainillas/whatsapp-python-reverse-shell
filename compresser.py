@@ -21,7 +21,7 @@ def writetofile(data, filename):
 
 #main function
 def main():
-    data = openfiletocompress("pythonreverseshell.py")
+    data = openfiletocompress("reverseshell.py")
     encoded_data = compress(data)
     writetofile(encoded_data, "encodedRS.txt")
 
